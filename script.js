@@ -93,7 +93,7 @@ yesBtn.addEventListener("click", () => {
     bgm1.currentTime = 0;
     bgm2.play();
 
-    title.textContent = "Yippeeee!";
+    title.textContent = "yippeeee!";
 
     catImg.src = "images/yippee-cat.gif";
 

@@ -155,24 +155,3 @@ display: inline-block;
     text-align: center;
     display: none;
 }
-
-/* .no-final-btn{
-    font-size: 22px;
-    line-height: 1;
-    text-align: center;
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: rgba(156, 219, 255);
-    border-radius: 12px;
-} */
-
-/* .yes-final-btn, 
-.no-final-btn{
-    width: 120px;
-    height: auto;
-    display: none;
-    position: relative;
-    z-index: 2;
-    transform-origin: center center;
-    transition: transform 0.3s ease;
-} */
