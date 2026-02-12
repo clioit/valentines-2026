@@ -1,0 +1,86 @@
+<!-- Clio Tsao, Feb. 11, 2026
+Built from Su Lei's "Will you be my Valentine?" at https://github.com/lovesulei/valentine-ask/tree/main -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <title>Will You Be My Valentine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+<title>Document</title>
+</head>
+<body>
+    <!--Envelope Screen-->
+    <div id="envelope-container">
+        <img src="images/envelope.png" alt="Envelope" id="envelope" />
+        <p> message for akira &lt;3 </p>
+        <p> (sound on) </p>
+        <div>
+            <audio id="click" src="sounds/click.mp3" autostart="false"></audio>
+        </div>
+    </div>
+    
+    <!--Letter Screen-->
+    <div id="letter-container">
+        <div class="letter-window">
+            <h1 id="letter-title">will you be my valentine?</h1>
+            
+            <audio id="bgm1" autostart="false" loop>
+                <source src="sounds/Places.mp3" type="audio/mp3">
+                <source src="sounds/Places.wav" type="audio/wav">
+            </audio>
+
+            <audio id="bgm2" autostart="false">
+                <source src="sounds/love for you cut.mp3" type="audio/mp3">
+                <source src="sounds/love for you cut.wav" type="audio/wav">
+            </audio>
+
+            <img src="images/oiacat.gif" class="cat" id="letter-cat" />
+
+            <div class="buttons" id="letter-buttons">
+                <img src="images/ofc.png" class="btn yes-btn" alt="Yes" />
+                <div class="no-wrapper">
+                    <img src="images/nah.png" class="btn no-btn" alt="No" />
+                </div>
+            </div>
+
+            <p id="final-text" class="final-text" style="display: none">
+                <strong>happy valentine's day my love &lt;3</strong>
+            </p>
+                
+            <img src="images/luv-u-btn.png" class="btn yes-final-btn" />
+            <img src="images/speechless.png" class="btn no-final-btn" />
+            
+            <!-- <div class="final-buttons" id="final-buttons">
+                <img src="images/luv-u-btn.png" class="fbtn yes-final-btn" style="display: none"/>
+                <div class="no-final-wrapper">
+                    <img src="images/speechless.png" class="fbtn no-final-btn" style="display: none" />
+                </div>
+            </div> -->
+            <!-- <img src="images/luv-u-btn.png" class="buttons" id="btn yes-final-btn" style="display: none"/> -->
+
+
+            <!-- <div>
+                <img src="images/luv-u-btn.png" class="btn yes-final-btn" style="display: none"/>
+            </div>
+            <div>
+                <img src="images/speechless.png" class="btn no-final-btn" style="display: none"/>
+            </div> -->
+
+            <!-- <p id="yes-final-btn" class="btn yes-final-btn" style="display: none">
+                <strong>i &lt;3 u</strong>
+            </p>
+            <p id="no-final-btn" class="btn no-final-btn" style="display: none">
+                <strong>...</strong>
+            </p> -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
